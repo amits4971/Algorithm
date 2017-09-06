@@ -1,0 +1,23 @@
+doctype html
+html
+   head
+    title=name
+   body
+    form(action = "/signup", method = "POST")
+        div
+            label(for = "name", value = "Name") Name :  
+            input(type = "text", name= "name")
+        br
+        div
+            label(for = "uName", value = "User Name") User Name : 
+            input(type = "text", name = "uName")
+        br
+        div
+            label(for = "age", value = "Age") Age : 
+            input(type = "number", name = "age")
+        br
+        div
+            label(for = "pwd", value = "Password") Password : 
+            input(type = "password", name = "pwd")
+        br
+        button(type = "submit", value = "signup") Sign Up
